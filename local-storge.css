@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  margin: 200px auto;
+  padding: 30px;
+  background-color: rgb(231, 231, 231);
+}
+.container input {
+  padding: 10px;
+  border: none;
+  width: 340px;
+  margin: 10px auto;
+}
+.container input:focus {
+  outline: none;
+}
+.container .btn {
+  margin-left: 20px;
+}
+.container .btn button {
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.container .btn button:active {
+  background-color: darkgreen;
+}
+.container .result {
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container .result span span {
+  font-weight: bold;
+  color: blue;
+}
